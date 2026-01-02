@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-from codebase.evaluation.cv import MonteCarloCV
-from codebase.workflow import WorkflowModeling, WorkflowPreprocessing
+from src.evaluation.cv import MonteCarloCV
+from src.workflow import WorkflowModeling, WorkflowPreprocessing
 
 from config import (DATA_DIR,
                     EMBED_DIM,

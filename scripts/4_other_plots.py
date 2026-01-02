@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from plotnine import *
 
-from codebase.cdf import CDFEngine
+from src.cdf import CDFEngine
 from config import DATA_DIR
 
 wave = pd.read_csv(DATA_DIR, parse_dates=['DATE'], index_col='DATE')

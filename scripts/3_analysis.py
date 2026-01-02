@@ -1,11 +1,10 @@
 import matplotlib
-
 matplotlib.use('TkAgg')
 import pandas as pd
 from baycomp import two_on_single
 from plotnine import *
 
-from codebase.data_reader import reading_data_results
+from src.data_reader import reading_data_results
 
 perf_clf, perf_n_df, sens_result = reading_data_results()
 

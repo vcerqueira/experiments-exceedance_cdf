@@ -3,10 +3,10 @@ import pandas as pd
 from sklearn.calibration import IsotonicRegression
 from plotnine import *
 
-from codebase.evaluation.cv import MonteCarloCV
-from codebase.workflow import WorkflowModeling, WorkflowPreprocessing
-from codebase.algorithms.nn import DeepNet
-from codebase.cdf import CDFEngine
+from src.evaluation.cv import MonteCarloCV
+from src.workflow import WorkflowModeling, WorkflowPreprocessing
+from src.algorithms.nn import DeepNet
+from src.cdf import CDFEngine
 
 from config import (DATA_DIR,
                     EMBED_DIM,
